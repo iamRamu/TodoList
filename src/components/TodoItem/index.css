@@ -1,0 +1,94 @@
+.pencil-icon{
+    color: rgb(24, 125, 225);
+    margin-left: 25px;
+    margin-right: 33px;
+    cursor: pointer;
+}
+.delete-icon{
+    color: red;
+    cursor: pointer;
+}
+.todoItem-data1{
+    max-width: 160px;
+    /* border: solid red; */
+    overflow: auto ; 
+    
+}
+.para-todoName{
+    /* border: solid red; */
+    margin-left: -10px;
+    display: flex;
+    max-width: 160px;
+    overflow:auto;
+}
+.todoItem-description{
+    max-width: 400px;
+    overflow: auto;
+}
+
+.circle-green{
+    background-color: green;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+    margin-left: 20px;
+}
+.circle-red{
+    background-color: red;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+    margin-left: 20px;
+}
+.circle-gray{
+    background-color: rgb(109, 106, 106);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+    margin-left: 20px;
+}
+.circle-blue{
+    background-color: rgb(23, 96, 243);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+    margin-left: 20px;
+}
+.customize-td{
+    display: flex;
+    align-items: center;
+}
+.edit-todoName-input{
+    width: 100%;
+    margin-left: -9px;
+    
+}
+.edit-buttons-container{
+    display: flex;
+    font-family: Roboto;
+}
+.edit-save-button{
+    background-color: rgb(17, 103, 223);
+    color: #ffffff;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.edit-cancel-button{
+    background-color:red;
+    color: #ffffff;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,80 @@
+.todolist-bg-container{
+    width: 95vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.search-input{
+    width: 320px;
+    border-radius: 8px;
+    outline: none;
+    border: solid grey;
+    padding-left: 10px;
+    font-family: Roboto;
+    font-size: 20px;
+    height: 35px;
+}
+.search-and-addTodo-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.addTodo-button{
+    font-family: Roboto;
+    background-color: rgb(15, 106, 163);
+    color: #ffffff;
+    width: 85px;
+    font-size: 13px;
+    cursor: pointer;
+    outline: none;
+}
+.todoList-container{
+    width: 100%;
+    /* background-color: bisque; */
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.blur-style{
+    filter: blur(10px);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: antiquewhite;
+}
+td{
+    padding-left: 10px;
+    /* text-align: center; */
+}
+.table-name{
+    width: 160px;
+}
+.table-description{
+    width: 400px;
+}
+.created-time{
+    width: 175px;
+}
+.sorting-icon{
+    width: 14px;
+    /* border: red solid; */
+    margin-top: 2px;
+    margin-bottom: -6px;
+}
+.no-items-available{
+    font-weight: bold;
+    font-size: 30px;
+}

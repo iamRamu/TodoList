@@ -1,0 +1,81 @@
+.form-container{
+    height: 99vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 1;
+}
+.popup-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #ffffff;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    border-radius: 20px;
+    height: 400px;
+    width: 450px;
+}
+.cross-icon{
+    margin-bottom: 20px;
+    color: red;
+    outline: none;
+}
+.todoName{
+    font-family: Roboto;
+    font-weight: bold;
+    margin-left: 70px;
+    font-size: 20px;
+}
+.form-input{
+    width: 250px;
+    height: 25px;
+    margin-left: 70px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    outline: none;
+    font-family: Roboto;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.status-dropdown{
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 70px;
+    /* margin-top: 15px; */
+}
+.dropDown{
+    margin-top: 0px;
+    width: 265px;
+    height: 33px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    outline: none;
+    font-family: Roboto;
+    padding-left: 10px;
+    margin-left: 70px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-button{
+    background-color: rgb(35, 91, 212);
+    color: #ffffff;
+    font-family: Roboto;
+    margin-top: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width: 65px;
+    border-radius: 5px;
+    /* padding-left: 18px; */
+}
