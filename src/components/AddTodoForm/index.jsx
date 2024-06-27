@@ -46,9 +46,7 @@ const AddTodoForm = () => {
                     <label htmlFor='dropDown' className='status-dropdown'>Select Status</label>
                     <select className='dropDown' name='status' id='dropDown' {...formik.getFieldProps("status")} required>
                         <option>Active</option>
-                        <option>InActive</option>
                         <option>InProgress</option>
-                        <option>Close</option>
                     </select>
                 </div>
                 <div className='button-container'>
