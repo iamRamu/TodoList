@@ -19,9 +19,6 @@ const TodoItem = props => {
         case "Active":
             statusColor = "circle-green"
             break;
-        case "InActive":
-            statusColor = "circle-gray"
-            break;
         case "InProgress":
             statusColor = "circle-blue"
             break;
@@ -68,7 +65,6 @@ const TodoItem = props => {
                     <td>
                         <select value={editedTodo.status} name='status' onChange={handleTodoStatus} className='edit-todoName-input'>
                             <option>Active</option>
-                            <option>InActive</option>
                             <option>InProgress</option>
                             <option>Close</option>
                         </select>
